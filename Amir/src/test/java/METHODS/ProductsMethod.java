@@ -63,7 +63,6 @@ public class ProductsMethod {
 																					// open in new tab
 		Actions ac2 = new Actions(driver);
 		ac2.contextClick(productsPage.getiMacsave()).perform();
-		Thread.sleep(5000);
 		Robot robot = new Robot();
 
 		robot.keyPress(KeyEvent.VK_DOWN);
@@ -78,7 +77,6 @@ public class ProductsMethod {
 																					// open in new window
 		Actions ac2 = new Actions(driver);
 		ac2.contextClick(productsPage.getiMacsave()).perform();
-//		Thread.sleep(5000);
 		Robot robot = new Robot();
 
 		robot.keyPress(KeyEvent.VK_DOWN);
