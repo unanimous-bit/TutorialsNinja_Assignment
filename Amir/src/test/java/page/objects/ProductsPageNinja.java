@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class ProductsPageNinja {
 
 	WebDriver driver;
@@ -19,19 +17,19 @@ public class ProductsPageNinja {
 	}
 
 	@FindBy(xpath = "//ul[@class='nav navbar-nav']/li/a[contains(text(),'Desktops')]")
-	private WebElement HoverDesktopLink;
+	private WebElement hoverDesktopLink;
 
 	@FindBy(xpath = "//a[normalize-space()='Mac (1)']")
-	private WebElement MacLink;
+	private WebElement macLink;
 
 	@FindBy(xpath = "//span[normalize-space()='Add to Cart']")
-	private WebElement ImacAddtocartButton;
+	private WebElement imacAddtocartButton;
 
 	@FindBy(xpath = "//i[@class='fa fa-home']")
 	private WebElement homepageButton;
 
 	@FindBy(xpath = "//a[normalize-space()='Tablets']")
-	private WebElement TabletsButton;
+	private WebElement tabletsButton;
 
 	@FindBy(xpath = "//div[@class='product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-xs-12']//button[1]")
 	private WebElement samsungtabButton;
@@ -60,15 +58,15 @@ public class ProductsPageNinja {
 	}
 
 	public WebElement getHoverdesktopLink() {
-		return HoverDesktopLink;
+		return hoverDesktopLink;
 	}
 
 	public WebElement getMacLink() {
-		return MacLink;
+		return macLink;
 	}
 
 	public WebElement getImacaddtocartButton() {
-		return ImacAddtocartButton;
+		return imacAddtocartButton;
 	}
 
 	public WebElement getHomepageButton() {
@@ -76,7 +74,7 @@ public class ProductsPageNinja {
 	}
 
 	public WebElement getTabletsButton() {
-		return TabletsButton;
+		return tabletsButton;
 	}
 
 	public WebElement getSamsungtabButton() {
