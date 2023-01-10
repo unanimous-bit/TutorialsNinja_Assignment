@@ -45,7 +45,7 @@ public class BaseClass {
 	@BeforeTest // This annotated method is used to run once before the execution of all tests
 				// in the suite is complete
 	@Parameters("browserName")
-	public void steponeSetUp(String browserName) {
+	public void stepnoSetUp(String browserName) {
 		Reporter.log("2" + browserName, true);
 		if (browserName.equalsIgnoreCase("chrome")) {
 			Reporter.log("BrowserName is " + browserName, true);
