@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[read config]]>
+    </line>
+    <line>
+      <![CDATA[OPENING URL IN THE BROWSER WINDOW ]]>
+    </line>
+    <line>
+      <![CDATA[BrowserName is chrome]]>
+    </line>
+    <line>
+      <![CDATA[Email is entered into textField]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered into textField]]>
+    </line>
+    <line>
+      <![CDATA[Login Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Edit your account information]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Moved to Desktop present in NAVIGATION
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on Mac
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on iMac add to cart button
+]]>
+    </line>
+    <line>
+      <![CDATA[COMPARE MESSAGE: Success: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[IN MainSuccess: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Message should be: Success: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on Tablets Mobiles
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on add to cart Samsung Galaxy Tab 
+]]>
+    </line>
+    <line>
+      <![CDATA[COMPARE MESSAGE: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[IN MainSuccess: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Message should be: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[available Desktops (13)]]>
+    </line>
+    <line>
+      <![CDATA[available Laptops & Notebooks (5)]]>
+    </line>
+    <line>
+      <![CDATA[available Components (2)]]>
+    </line>
+    <line>
+      <![CDATA[available Tablets (1)]]>
+    </line>
+    <line>
+      <![CDATA[uavailable Software (0)]]>
+    </line>
+    <line>
+      <![CDATA[available Phones & PDAs (3)]]>
+    </line>
+    <line>
+      <![CDATA[available Cameras (2)]]>
+    </line>
+    <line>
+      <![CDATA[available MP3 Players (4)]]>
+    </line>
+    <line>
+      <![CDATA[BrowserName is me]]>
+    </line>
+    <line>
+      <![CDATA[Email is entered into textField]]>
+    </line>
+    <line>
+      <![CDATA[Password is entered into textField]]>
+    </line>
+    <line>
+      <![CDATA[Login Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Edit your account information]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Moved to Desktop present in NAVIGATION
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on Mac
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on iMac add to cart button
+]]>
+    </line>
+    <line>
+      <![CDATA[COMPARE MESSAGE: Success: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[IN MainSuccess: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Message should be: Success: You have added iMac to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on Tablets Mobiles
+]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>>>>>Clicked on add to cart Samsung Galaxy Tab 
+]]>
+    </line>
+    <line>
+      <![CDATA[COMPARE MESSAGE: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[IN MainSuccess: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Message should be: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+    </line>
+    <line>
+      <![CDATA[available Desktops (13)]]>
+    </line>
+    <line>
+      <![CDATA[available Laptops & Notebooks (5)]]>
+    </line>
+    <line>
+      <![CDATA[available Components (2)]]>
+    </line>
+    <line>
+      <![CDATA[available Tablets (1)]]>
+    </line>
+    <line>
+      <![CDATA[uavailable Software (0)]]>
+    </line>
+    <line>
+      <![CDATA[available Phones & PDAs (3)]]>
+    </line>
+    <line>
+      <![CDATA[available Cameras (2)]]>
+    </line>
+    <line>
+      <![CDATA[available MP3 Players (4)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-10T17:17:21 IST" name="Suite" finished-at="2023-01-10T17:18:24 IST" duration-ms="62420">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T17:17:21 IST" name="ChromeBrowserTestCases" finished-at="2023-01-10T17:17:53 IST" duration-ms="31243">
+      <class name="test.scenarious.ProductsPageTest">
+        <test-method is-config="true" signature="steponeSetUp(java.lang.String)[pri:0, instance:test.scenarious.ProductsPageTest@f0c8a99]" started-at="2023-01-10T17:17:21 IST" name="steponeSetUp" finished-at="2023-01-10T17:17:24 IST" duration-ms="2360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BrowserName is chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- steponeSetUp -->
+        <test-method is-config="true" signature="steptwoOpenBrowsers()[pri:0, instance:test.scenarious.ProductsPageTest@f0c8a99]" started-at="2023-01-10T17:17:24 IST" name="steptwoOpenBrowsers" finished-at="2023-01-10T17:17:24 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steptwoOpenBrowsers -->
+        <test-method signature="login()[pri:0, instance:test.scenarious.ProductsPageTest@f0c8a99]" started-at="2023-01-10T17:17:24 IST" name="login" finished-at="2023-01-10T17:17:26 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Email is entered into textField]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered into textField]]>
+            </line>
+            <line>
+              <![CDATA[Login Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Edit your account information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="products()[pri:0, instance:test.scenarious.ProductsPageTest@f0c8a99]" started-at="2023-01-10T17:17:26 IST" name="products" finished-at="2023-01-10T17:17:52 IST" depends-on-methods="test.scenarious.LoginPageTest.login" duration-ms="26324" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>>>>>Moved to Desktop present in NAVIGATION
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on Mac
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on iMac add to cart button
+]]>
+            </line>
+            <line>
+              <![CDATA[COMPARE MESSAGE: Success: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[IN MainSuccess: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[Message should be: Success: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on Tablets Mobiles
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on add to cart Samsung Galaxy Tab 
+]]>
+            </line>
+            <line>
+              <![CDATA[COMPARE MESSAGE: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[IN MainSuccess: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[Message should be: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[available Desktops (13)]]>
+            </line>
+            <line>
+              <![CDATA[available Laptops & Notebooks (5)]]>
+            </line>
+            <line>
+              <![CDATA[available Components (2)]]>
+            </line>
+            <line>
+              <![CDATA[available Tablets (1)]]>
+            </line>
+            <line>
+              <![CDATA[uavailable Software (0)]]>
+            </line>
+            <line>
+              <![CDATA[available Phones & PDAs (3)]]>
+            </line>
+            <line>
+              <![CDATA[available Cameras (2)]]>
+            </line>
+            <line>
+              <![CDATA[available MP3 Players (4)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- products -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.scenarious.ProductsPageTest@f0c8a99]" started-at="2023-01-10T17:17:52 IST" name="TearDown" finished-at="2023-01-10T17:17:53 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test.scenarious.ProductsPageTest -->
+    </test> <!-- ChromeBrowserTestCases -->
+    <test started-at="2023-01-10T17:17:53 IST" name="EdgeBrowserTestCases" finished-at="2023-01-10T17:18:24 IST" duration-ms="31143">
+      <class name="test.scenarious.ProductsPageTest">
+        <test-method is-config="true" signature="step0ReadConfig()[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:17:21 IST" name="step0ReadConfig" finished-at="2023-01-10T17:17:21 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[read config]]>
+            </line>
+            <line>
+              <![CDATA[OPENING URL IN THE BROWSER WINDOW ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- step0ReadConfig -->
+        <test-method is-config="true" signature="steponeSetUp(java.lang.String)[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:17:53 IST" name="steponeSetUp" finished-at="2023-01-10T17:17:56 IST" duration-ms="3175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BrowserName is me]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- steponeSetUp -->
+        <test-method is-config="true" signature="steptwoOpenBrowsers()[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:17:56 IST" name="steptwoOpenBrowsers" finished-at="2023-01-10T17:17:57 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steptwoOpenBrowsers -->
+        <test-method signature="login()[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:17:57 IST" name="login" finished-at="2023-01-10T17:17:58 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Email is entered into textField]]>
+            </line>
+            <line>
+              <![CDATA[Password is entered into textField]]>
+            </line>
+            <line>
+              <![CDATA[Login Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Edit your account information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="products()[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:17:58 IST" name="products" finished-at="2023-01-10T17:18:23 IST" depends-on-methods="test.scenarious.LoginPageTest.login" duration-ms="25438" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>>>>>Moved to Desktop present in NAVIGATION
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on Mac
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on iMac add to cart button
+]]>
+            </line>
+            <line>
+              <![CDATA[COMPARE MESSAGE: Success: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[IN MainSuccess: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[Message should be: Success: You have added iMac to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on Tablets Mobiles
+]]>
+            </line>
+            <line>
+              <![CDATA[>>>>>>>>>Clicked on add to cart Samsung Galaxy Tab 
+]]>
+            </line>
+            <line>
+              <![CDATA[COMPARE MESSAGE: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[IN MainSuccess: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[Message should be: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×]]>
+            </line>
+            <line>
+              <![CDATA[available Desktops (13)]]>
+            </line>
+            <line>
+              <![CDATA[available Laptops & Notebooks (5)]]>
+            </line>
+            <line>
+              <![CDATA[available Components (2)]]>
+            </line>
+            <line>
+              <![CDATA[available Tablets (1)]]>
+            </line>
+            <line>
+              <![CDATA[uavailable Software (0)]]>
+            </line>
+            <line>
+              <![CDATA[available Phones & PDAs (3)]]>
+            </line>
+            <line>
+              <![CDATA[available Cameras (2)]]>
+            </line>
+            <line>
+              <![CDATA[available MP3 Players (4)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- products -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:test.scenarious.ProductsPageTest@35dab4eb]" started-at="2023-01-10T17:18:23 IST" name="TearDown" finished-at="2023-01-10T17:18:24 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- test.scenarious.ProductsPageTest -->
+    </test> <!-- EdgeBrowserTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>

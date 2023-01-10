@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="EdgeBrowserTestCases(failed)">
+    <parameter name="browserName" value="me"/>
+    <classes>
+      <class name="test.scenarious.ProductsPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="TearDown"/>
+          <include name="products"/>
+          <include name="steptwoOpenBrowsers"/>
+          <include name="step0ReadConfig"/>
+          <include name="steponeSetUp"/>
+        </methods>
+      </class> <!-- test.scenarious.ProductsPageTest -->
+    </classes>
+  </test> <!-- EdgeBrowserTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

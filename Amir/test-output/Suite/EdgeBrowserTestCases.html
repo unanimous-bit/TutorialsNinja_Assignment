@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>TestNG:  EdgeBrowserTestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EdgeBrowserTestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 10 17:17:53 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>31 seconds (31143 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.scenarious.ProductsPageTest.products()'><b>products</b><br>Test class: test.scenarious.ProductsPageTest<br/>
+<a href="#Output-187599094" onClick='toggleBox("Output-187599094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-187599094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-187599094">
+>>>>>>>>>Moved to Desktop present in NAVIGATION
+<br/>
+>>>>>>>>>Clicked on Mac
+<br/>
+>>>>>>>>>Clicked on iMac add to cart button
+<br/>
+COMPARE MESSAGE: Success: You have added iMac to your shopping cart!
+×<br/>
+IN MainSuccess: You have added iMac to your shopping cart!
+×<br/>
+Message should be: Success: You have added iMac to your shopping cart!
+×<br/>
+>>>>>>>>>Clicked on Tablets Mobiles
+<br/>
+>>>>>>>>>Clicked on add to cart Samsung Galaxy Tab 
+<br/>
+COMPARE MESSAGE: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×<br/>
+IN MainSuccess: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×<br/>
+Message should be: Success: You have added Samsung Galaxy Tab 10.1 to your shopping cart!
+×<br/>
+available Desktops (13)<br/>
+available Laptops & Notebooks (5)<br/>
+available Components (2)<br/>
+available Tablets (1)<br/>
+uavailable Software (0)<br/>
+available Phones & PDAs (3)<br/>
+available Cameras (2)<br/>
+available MP3 Players (4)<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>test.scenarious.ProductsPageTest@35dab4eb</td></tr>
+<tr>
+<td title='test.scenarious.ProductsPageTest.login()'><b>login</b><br>Test class: test.scenarious.ProductsPageTest<br/>
+<a href="#Output-1139301606" onClick='toggleBox("Output-1139301606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139301606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139301606">
+Email is entered into textField<br/>
+Password is entered into textField<br/>
+Login Button is clicked<br/>
+null<br/>
+Edit your account information<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>test.scenarious.ProductsPageTest@35dab4eb</td></tr>
+</table><p>
+</body>
+</html>
