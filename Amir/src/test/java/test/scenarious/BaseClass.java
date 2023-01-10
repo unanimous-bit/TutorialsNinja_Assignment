@@ -27,7 +27,7 @@ public class BaseClass {
 
 	@BeforeSuite // This annotated method will be run only once before all tests in this suite
 					// have run.
-	public void step0ReadConfig() throws IOException {
+	public void stepnoReadConfig() throws IOException {
 		System.out.println("1");
 		Reporter.log("read config");
 		try {
@@ -45,7 +45,7 @@ public class BaseClass {
 	@BeforeTest // This annotated method is used to run once before the execution of all tests
 				// in the suite is complete
 	@Parameters("browserName")
-	public void stepnoSetUp(String browserName) {
+	public void steponeSetUp(String browserName) {
 		Reporter.log("2" + browserName, true);
 		if (browserName.equalsIgnoreCase("chrome")) {
 			Reporter.log("BrowserName is " + browserName, true);
