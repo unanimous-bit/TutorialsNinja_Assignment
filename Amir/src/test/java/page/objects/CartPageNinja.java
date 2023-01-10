@@ -14,42 +14,42 @@ public class CartPageNinja {
 	}
 
 	@FindBy(id = "cart-total")
-	private WebElement CartpageButton;
+	private WebElement cartpageButton;
 
 	@FindBy(xpath = "//strong[normalize-space()='Checkout']")
-	private WebElement CheckoutFromCartButton;
+	private WebElement checkoutFromCartButton;
 
 	@FindBy(xpath = "(//button[@type='button'])[10]")
-	private WebElement RemoveImacCrossButton;
+	private WebElement removeImacCrossButton;
 
 	@FindBy(xpath = "//a[@class='btn btn-primary']")
-	private WebElement CheckoutButton;
+	private WebElement checkoutButton;
 
 	@FindBy(xpath = "//div[@class='alert alert-danger alert-dismissible']")
-	private WebElement CartPageMessage;
+	private WebElement cartPageMessage;
 
 	public WebDriver getDriver() {
 		return driver;
 	}
 
 	public WebElement getCartpageButton() {
-		return CartpageButton;
+		return cartpageButton;
 	}
 
 	public WebElement getCheckoutFromCartButton() {
-		return CheckoutFromCartButton;
+		return checkoutFromCartButton;
 	}
 
 	public WebElement getRemoveImacCrossButton() {
-		return RemoveImacCrossButton;
+		return removeImacCrossButton;
 	}
 
 	public WebElement getCheckoutButton() {
-		return CheckoutButton;
+		return checkoutButton;
 	}
 
 	public WebElement getProducNotAvailableText() {
-		return CartPageMessage;
+		return cartPageMessage;
 	}
 
 }
