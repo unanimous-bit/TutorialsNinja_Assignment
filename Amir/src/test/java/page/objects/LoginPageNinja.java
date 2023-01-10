@@ -16,42 +16,38 @@ public class LoginPageNinja {
 	}
 
 	@FindBy(id = "input-email")
-	private WebElement EmailidTextfield;
+	private WebElement emailidTextfield;
 
 	@FindBy(id = "input-password")
-	private WebElement PasswordTextfield;
+	private WebElement passwordTextfield;
 
 	@FindBy(xpath = "//input[@value='Login']")
-	private WebElement LoginButton;
+	private WebElement loginButton;
 
 	@FindBy(xpath = "//*[@id='account-login']/div[1]")
-	private WebElement LoginErrorMessage;
+	private WebElement loginErrorMessage;
 
 	@FindBy(xpath = "//a[contains(text(),'Edit your account information')]")
-	private WebElement EditProfile;
+	private WebElement editProfile;
 
 	public WebDriver getDriver() {
 		return driver;
 	}
 
 	public WebElement getEmailidTextfield() {
-		return EmailidTextfield;
+		return emailidTextfield;
 	}
 
 	public WebElement getPasswordTextfield() {
-		return PasswordTextfield;
+		return passwordTextfield;
 	}
 
 	public WebElement getLoginButton() {
-		return LoginButton;
+		return loginButton;
 	}
 
 	public WebElement getEditProfile() {
-		return EditProfile;
+		return editProfile;
 	}
-
-//	public WebElement getLoginerrorMessage() {
-//		return LoginErrorMessage;
-//	}
 
 }
